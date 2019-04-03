@@ -27,7 +27,7 @@ body {
     text-align: center;
     padding: 10px;
     position: absolute;
-    bottom:450px;
+    bottom: 450px;
     left: 200px;
 }
 
@@ -36,9 +36,9 @@ body {
     color: azure;
     text-align: center;
     padding: 10px;
-position: absolute;
-bottom:450px;
-left:350px;
+    position: absolute;
+    bottom: 450px;
+    left: 350px;
 }
 
 #javascript {
@@ -57,9 +57,9 @@ left:350px;
     color: azure;
     text-align: center;
     padding: 10px;
-position: absolute;
-bottom: 450px;
-left: 750px;
+    position: absolute;
+    bottom: 450px;
+    left: 750px;
 }
 
 #mysql {
@@ -77,18 +77,17 @@ left: 750px;
 #kallie {
     float: right;
     padding: 20px;
-    position:absolute;
+    position: absolute;
     bottom: -350px;
     left: 75px;
     clear: both;
     width: 190px
-
 }
 
 #ccmstudios {
     float: right;
     padding: 20px;
-    position:absolute;
+    position: absolute;
     bottom: -350px;
     left: 50px;
     clear: both;
@@ -98,7 +97,7 @@ left: 750px;
 #gamer {
     float: right;
     padding: 20px;
-    position:absolute;
+    position: absolute;
     bottom: -550px;
     left: 50px;
     clear: both;
@@ -108,7 +107,7 @@ left: 750px;
 #product {
     float: right;
     padding: 20px;
-    position:absolute;
+    position: absolute;
     bottom: -550px;
     left: 75px;
     clear: both;
@@ -118,7 +117,7 @@ left: 750px;
 #music {
     float: right;
     padding: 20px;
-    position:absolute;
+    position: absolute;
     bottom: -350px;
     clear: both;
     width: 190px;
@@ -127,7 +126,7 @@ left: 750px;
 #author {
 
     padding: 20px;
-    position:absolute;
+    position: absolute;
     bottom: -550px;
     clear: both;
     width: 190px
@@ -140,9 +139,9 @@ h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 2px 2px black;
-    position:absolute;
+    position: absolute;
     left: 100px;
-    perspective:400px;
+    perspective: 400px;
     transform: rotateY(90deg);
 }
 
@@ -152,8 +151,8 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 2px 2px black;
     letter-spacing: 1em;
-    position:relative;
-    bottom:-75px;
+    position: relative;
+    bottom: -75px;
 
 }
 
@@ -161,49 +160,53 @@ h3 {
     width: 20%;
     margin-left: auto;
     margin-right: auto;
-    position:relative;
-    left:-50px;
+    position: relative;
+    left: -50px;
     bottom: -600px;
 }
 
 #particles-js {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/ccmstudio.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ccmstudio.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-@media only screen and (max-width:768px){
-    html,body{
-        width: 100%;padding:10px;
+@media only screen and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        padding: 10px;
     }
+
     #html {
-       display:none;
+        display: none;
     }
-    
+
     #css {
-    
-       display:none;
+
+        display: none;
     }
-    
+
     #javascript {
-    
-       display:none;
-    
+
+        display: none;
+
     }
-    
+
     #nodejs {
-    
-       display:none;
+
+        display: none;
     }
-    
+
     #mysql {
-    
-       display: none;
-    
+
+        display: none;
+
     }
-    
-    
+
+
     #kallie {
         /* float: left;
         padding: 20px;
@@ -213,10 +216,11 @@ h3 {
         width: 100%;
         clear: both;
      */
-     width: 80%;
-     left: 0px;
+        width: 80%;
+        left: 0px;
+        margin: 20px;
     }
-    
+
     #ccmstudios {
         /* float: right;
         padding: 20px;
@@ -226,9 +230,10 @@ h3 {
         clear: both; */
         width: 80%;
         left: 0px;
-        
+        margin: 20px;
+
     }
-    
+
     #gamer {
         /* float: right;
         padding: 20px;
@@ -238,8 +243,9 @@ h3 {
         clear: both; */
         left: 0px;
         width: 80%;
+        margin: 20px;
     }
-    
+
     #product {
         /* float: right;
         padding: 20px;
@@ -249,7 +255,9 @@ h3 {
         clear: both; */
         width: 80%;
         left: 0px;
+        margin: 20px;
     }
+
     #music {
         /* float: right;
         padding: 20px;
@@ -257,65 +265,68 @@ h3 {
         bottom: -350px;
         clear: both; */
         width: 80%;
+        margin: 20px;
     }
-    
+
     #author {
-    
+
         /* padding: 20px;
         /* position:absolute; */
-        /* bottom: -550px; */ 
+        /* bottom: -550px; */
         width: 80%;
+        margin: 20px;
         clear: both;
     }
-    
-    
+
+
     h1 {
         color: ivory;
         letter-spacing: 1em;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         text-shadow: 2px 2px black;
-        position:absolute;
+        position: absolute;
         left: 100px;
-        perspective:400px;
+        perspective: 400px;
         transform: rotateY(90deg);
         width: 75%;
         margin-left: auto;
         margin-right: auto;
         font-size: 18px;
     }
-    
+
     h3 {
         color: azure;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-shadow: 2px 2px black;
         letter-spacing: 1em;
-        position:relative;
-        bottom:-125px;
+        position: relative;
+        bottom: -125px;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
         padding: 15px;
         font-size: 16px;
     }
-    
+
     .resume {
         width: 40%;
         margin-left: auto;
         margin-right: auto;
-        position:relative;
-        left:-50px;
+        position: relative;
+        left: -50px;
         bottom: -600px;
     }
-    
+
     #particles-js {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/ccmstudio.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ccmstudio.jpg);
         height: 100vh;
         background-size: cover;
         background-position: center;
     }
-    .col{
-        width:10px;
+
+    .col {
+        width: 10px;
     }
 }
