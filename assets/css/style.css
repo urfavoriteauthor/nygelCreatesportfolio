@@ -81,6 +81,7 @@ left: 750px;
     bottom: -350px;
     left: 75px;
     clear: both;
+    width: 190px
 
 }
 
@@ -91,6 +92,7 @@ left: 750px;
     bottom: -350px;
     left: 50px;
     clear: both;
+    width: 190px
 }
 
 #gamer {
@@ -100,6 +102,7 @@ left: 750px;
     bottom: -550px;
     left: 50px;
     clear: both;
+    width: 190px
 }
 
 #product {
@@ -109,6 +112,7 @@ left: 750px;
     bottom: -550px;
     left: 75px;
     clear: both;
+    width: 190px
 }
 
 #music {
@@ -117,6 +121,7 @@ left: 750px;
     position:absolute;
     bottom: -350px;
     clear: both;
+    width: 190px;
 }
 
 #author {
@@ -125,6 +130,7 @@ left: 750px;
     position:absolute;
     bottom: -550px;
     clear: both;
+    width: 190px
 }
 
 
@@ -207,6 +213,7 @@ h3 {
         width: 100%;
         clear: both;
      */
+     width: 80%;
      left: 0px;
     }
     
@@ -217,7 +224,9 @@ h3 {
         bottom: -350px;
         left: 50px;
         clear: both; */
+        width: 80%;
         left: 0px;
+        
     }
     
     #gamer {
@@ -228,6 +237,7 @@ h3 {
         left: 50px;
         clear: both; */
         left: 0px;
+        width: 80%;
     }
     
     #product {
@@ -237,23 +247,24 @@ h3 {
         bottom: -550px;
         left: 75px;
         clear: both; */
-        width: 75%;
+        width: 80%;
         left: 0px;
     }
     #music {
-        float: right;
+        /* float: right;
         padding: 20px;
         position:absolute;
         bottom: -350px;
-        clear: both;
+        clear: both; */
+        width: 80%;
     }
     
     #author {
     
-        padding: 20px;
+        /* padding: 20px;
         /* position:absolute; */
-        bottom: -550px;
-        width: 100%;
+        /* bottom: -550px; */ 
+        width: 80%;
         clear: both;
     }
     
@@ -268,10 +279,10 @@ h3 {
         left: 100px;
         perspective:400px;
         transform: rotateY(90deg);
-        width: 50%;
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
-        font-size: 24px;
+        font-size: 18px;
     }
     
     h3 {
@@ -303,5 +314,8 @@ h3 {
         height: 100vh;
         background-size: cover;
         background-position: center;
+    }
+    .col{
+        width:10px;
     }
 }
