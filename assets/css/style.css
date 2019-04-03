@@ -216,9 +216,11 @@ h3 {
         width: 100%;
         clear: both;
      */
-        width: 80%;
+        width: 480px;
         left: 0px;
         margin: 20px;
+        bottom: -300px;
+        float: left;
     }
 
     #ccmstudios {
@@ -228,9 +230,11 @@ h3 {
         bottom: -350px;
         left: 50px;
         clear: both; */
-        width: 80%;
-        left: 0px;
+        width: 480px;
+        left: -164px;
+        bottom:-500px;
         margin: 20px;
+        float: left;
 
     }
 
@@ -241,8 +245,9 @@ h3 {
         bottom: -550px;
         left: 50px;
         clear: both; */
-        left: 0px;
-        width: 80%;
+        left: -164px;
+        bottom:-1300px;
+        width: 480px;
         margin: 20px;
     }
 
@@ -253,7 +258,8 @@ h3 {
         bottom: -550px;
         left: 75px;
         clear: both; */
-        width: 80%;
+        width: 480px;
+        bottom: -900px;
         left: 0px;
         margin: 20px;
     }
@@ -264,8 +270,10 @@ h3 {
         position:absolute;
         bottom: -350px;
         clear: both; */
-        width: 80%;
+        width: 480px;
         margin: 20px;
+        bottom: -700px;
+        left: -327px;
     }
 
     #author {
@@ -273,7 +281,9 @@ h3 {
         /* padding: 20px;
         /* position:absolute; */
         /* bottom: -550px; */
-        width: 80%;
+        width: 480px;
+        bottom: -1100px;
+        left: -327px;
         margin: 20px;
         clear: both;
     }
@@ -308,6 +318,7 @@ h3 {
         margin-right: auto;
         padding: 15px;
         font-size: 16px;
+        left: 40px;
     }
 
     .resume {
@@ -315,8 +326,9 @@ h3 {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        left: -50px;
-        bottom: -600px;
+        left: 30px;
+        bottom: -1300px;
+        
     }
 
     #particles-js {
