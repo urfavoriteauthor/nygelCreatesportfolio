@@ -216,7 +216,7 @@ h3 {
         width: 100%;
         clear: both;
      */
-        width: 480px;
+        width: 300px;
         left: -30px;
         margin: 20px;
         bottom: -300px;
@@ -230,8 +230,8 @@ h3 {
         bottom: -350px;
         left: 50px;
         clear: both; */
-        width: 480px;
-        left: -164px;
+        width: 300px;
+        left: -184px;
         bottom:-500px;
         margin: 20px;
         float: left;
@@ -245,9 +245,9 @@ h3 {
         bottom: -550px;
         left: 50px;
         clear: both; */
-        left: -164px;
+        left: -184px;
         bottom:-1300px;
-        width: 480px;
+        width: 300px;
         margin: 20px;
     }
 
@@ -258,7 +258,7 @@ h3 {
         bottom: -550px;
         left: 75px;
         clear: both; */
-        width: 480px;
+        width: 300px;
         bottom: -900px;
         left: -30px;
         margin: 20px;
@@ -270,7 +270,7 @@ h3 {
         position:absolute;
         bottom: -350px;
         clear: both; */
-        width: 480px;
+        width: 300px;
         margin: 20px;
         bottom: -700px;
         left: -327px;
@@ -281,7 +281,7 @@ h3 {
         /* padding: 20px;
         /* position:absolute; */
         /* bottom: -550px; */
-        width: 480px;
+        width: 300px;
         bottom: -1100px;
         left: -327px;
         margin: 20px;
