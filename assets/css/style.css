@@ -206,88 +206,39 @@ h3 {
 
     }
 
-
     #kallie {
-        /* float: left;
-        padding: 20px;
-        position:absolute;
-        bottom: -350px;
-        left: 75px;
-        width: 100%;
-        clear: both;
-     */
-        width: 300px;
-        left: -30px;
-        margin: 20px;
-        bottom: -300px;
-        float: left;
+        left: 0;
+        width: 130px;
+        height: 180px;
     }
 
     #ccmstudios {
-        /* float: right;
-        padding: 20px;
-        position:absolute;
-        bottom: -350px;
-        left: 50px;
-        clear: both; */
-        width: 300px;
-        left: -184px;
-        bottom:-500px;
-        margin: 20px;
-        float: left;
-
-    }
-
-    #gamer {
-        /* float: right;
-        padding: 20px;
-        position:absolute;
-        bottom: -550px;
-        left: 50px;
-        clear: both; */
-        left: -184px;
-        bottom:-1300px;
-        width: 300px;
-        margin: 20px;
-    }
-
-    #product {
-        /* float: right;
-        padding: 20px;
-        position:absolute;
-        bottom: -550px;
-        left: 75px;
-        clear: both; */
-        width: 300px;
-        bottom: -900px;
-        left: -30px;
-        margin: 20px;
-    }
-
-    #music {
-        /* float: right;
-        padding: 20px;
-        position:absolute;
-        bottom: -350px;
-        clear: both; */
-        width: 300px;
-        margin: 20px;
-        bottom: -700px;
-        left: -327px;
+        left: 0;
+        width: 130px;
+        height: 180px;
+        
     }
 
     #author {
-
-        /* padding: 20px;
-        /* position:absolute; */
-        /* bottom: -550px; */
-        width: 300px;
-        bottom: -1100px;
-        left: -327px;
-        margin: 20px;
-        clear: both;
+        left: 0;
+        width: 130px;
+        height: 180px;
     }
-
+    #music {
+        left: 0;
+        width: 130px;
+        height: 180px;
+    }
+    #gamer {
+        left: 0;
+        width: 130px;
+        height: 180px;
+    }
+    #product {
+        left: 0;
+        width: 130px;
+        height: 180px;
+    }
 
     h1 {
         color: ivory;
@@ -322,13 +273,12 @@ h3 {
     }
 
     .resume {
-        width: 40%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
         position: relative;
-        left: 30px;
-        bottom: -1300px;
-        
+       margin: 50px;
+        bottom: -600px;
+        left: -10;
+
     }
 
     #particles-js {
